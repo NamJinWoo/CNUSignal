@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CD44706D1FBEC26515BAB3E /* Pods_CNUSignal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCA6281D782A6629108A842 /* Pods_CNUSignal.framework */; };
 		CB2D6AC7214FBCDD00354CE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2D6AC6214FBCDD00354CE7 /* AppDelegate.swift */; };
 		CB2D6AC9214FBCDD00354CE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2D6AC8214FBCDD00354CE7 /* ViewController.swift */; };
 		CB2D6ACC214FBCDD00354CE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB2D6ACA214FBCDD00354CE7 /* Main.storyboard */; };
@@ -15,6 +16,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1FCA6281D782A6629108A842 /* Pods_CNUSignal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CNUSignal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D155764214FD4E8005DBEDC /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7CFB7F37F4BAE10A5F180669 /* Pods-CNUSignal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CNUSignal.release.xcconfig"; path = "Pods/Target Support Files/Pods-CNUSignal/Pods-CNUSignal.release.xcconfig"; sourceTree = "<group>"; };
+		83C20C43187F3372A0DC6315 /* Pods-CNUSignal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CNUSignal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CNUSignal/Pods-CNUSignal.debug.xcconfig"; sourceTree = "<group>"; };
 		CB2D6AC3214FBCDD00354CE7 /* CNUSignal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CNUSignal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB2D6AC6214FBCDD00354CE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB2D6AC8214FBCDD00354CE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,17 +34,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CD44706D1FBEC26515BAB3E /* Pods_CNUSignal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50B5D71636D888D6EE2955E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FCA6281D782A6629108A842 /* Pods_CNUSignal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CB2D6ABA214FBCDD00354CE7 = {
 			isa = PBXGroup;
 			children = (
 				CB2D6AC5214FBCDD00354CE7 /* CNUSignal */,
 				CB2D6AC4214FBCDD00354CE7 /* Products */,
+				D44CADABF2CE80B5E28A8D7B /* Pods */,
+				50B5D71636D888D6EE2955E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +70,7 @@
 		CB2D6AC5214FBCDD00354CE7 /* CNUSignal */ = {
 			isa = PBXGroup;
 			children = (
+				2D155764214FD4E8005DBEDC /* GoogleService-Info.plist */,
 				CB2D6AC6214FBCDD00354CE7 /* AppDelegate.swift */,
 				CB2D6AC8214FBCDD00354CE7 /* ViewController.swift */,
 				CB2D6ACA214FBCDD00354CE7 /* Main.storyboard */,
@@ -64,6 +81,15 @@
 			path = CNUSignal;
 			sourceTree = "<group>";
 		};
+		D44CADABF2CE80B5E28A8D7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83C20C43187F3372A0DC6315 /* Pods-CNUSignal.debug.xcconfig */,
+				7CFB7F37F4BAE10A5F180669 /* Pods-CNUSignal.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +97,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB2D6AD5214FBCDE00354CE7 /* Build configuration list for PBXNativeTarget "CNUSignal" */;
 			buildPhases = (
+				5422797192FD42731837F2DF /* [CP] Check Pods Manifest.lock */,
 				CB2D6ABF214FBCDD00354CE7 /* Sources */,
 				CB2D6AC0214FBCDD00354CE7 /* Frameworks */,
 				CB2D6AC1214FBCDD00354CE7 /* Resources */,
+				AEBDF6E44BC523EE6C510444 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +157,55 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5422797192FD42731837F2DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CNUSignal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEBDF6E44BC523EE6C510444 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CNUSignal/Pods-CNUSignal-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CNUSignal/Pods-CNUSignal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CB2D6ABF214FBCDD00354CE7 /* Sources */ = {
@@ -278,6 +355,7 @@
 		};
 		CB2D6AD6214FBCDE00354CE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83C20C43187F3372A0DC6315 /* Pods-CNUSignal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +374,7 @@
 		};
 		CB2D6AD7214FBCDE00354CE7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CFB7F37F4BAE10A5F180669 /* Pods-CNUSignal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

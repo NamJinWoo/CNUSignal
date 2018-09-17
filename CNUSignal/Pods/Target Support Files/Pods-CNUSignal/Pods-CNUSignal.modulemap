@@ -1,0 +1,6 @@
+framework module Pods_CNUSignal {
+  umbrella header "Pods-CNUSignal-umbrella.h"
+
+  export *
+  module * { export * }
+}
