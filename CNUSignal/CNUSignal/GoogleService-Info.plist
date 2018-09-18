@@ -7,9 +7,9 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>103348910825-ctc7ts12lh8cqrf7klu80rdq3hs61asb.apps.googleusercontent.com</string>
+	<string>103348910825-6eu9bq601047vt4oq9i0mo2k4j0o6jqk.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.103348910825-ctc7ts12lh8cqrf7klu80rdq3hs61asb</string>
+	<string>com.googleusercontent.apps.103348910825-6eu9bq601047vt4oq9i0mo2k4j0o6jqk</string>
 	<key>API_KEY</key>
 	<string>AIzaSyA9YPCRaNOIj9uAXJT64iPxdKddhXMOlic</string>
 	<key>GCM_SENDER_ID</key>
@@ -17,23 +17,23 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>201402343.CNUSignal</string>
+	<string>cnu.junior.CNUSignal</string>
 	<key>PROJECT_ID</key>
 	<string>cnusignal-6bd16</string>
 	<key>STORAGE_BUCKET</key>
 	<string>cnusignal-6bd16.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_APPINVITE_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_GCM_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:103348910825:ios:c653735041aae36a</string>
+	<string>1:103348910825:ios:f2063b50f9ddda08</string>
 	<key>DATABASE_URL</key>
 	<string>https://cnusignal-6bd16.firebaseio.com</string>
 </dict>

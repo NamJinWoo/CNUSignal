@@ -13,11 +13,11 @@
 		CB2D6ACC214FBCDD00354CE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB2D6ACA214FBCDD00354CE7 /* Main.storyboard */; };
 		CB2D6ACE214FBCDE00354CE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB2D6ACD214FBCDE00354CE7 /* Assets.xcassets */; };
 		CB2D6AD1214FBCDE00354CE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB2D6ACF214FBCDE00354CE7 /* LaunchScreen.storyboard */; };
+		CB30EDCB21512BEE0037F5EE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB30EDCA21512BEE0037F5EE /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1FCA6281D782A6629108A842 /* Pods_CNUSignal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CNUSignal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D155764214FD4E8005DBEDC /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7CFB7F37F4BAE10A5F180669 /* Pods-CNUSignal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CNUSignal.release.xcconfig"; path = "Pods/Target Support Files/Pods-CNUSignal/Pods-CNUSignal.release.xcconfig"; sourceTree = "<group>"; };
 		83C20C43187F3372A0DC6315 /* Pods-CNUSignal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CNUSignal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CNUSignal/Pods-CNUSignal.debug.xcconfig"; sourceTree = "<group>"; };
 		CB2D6AC3214FBCDD00354CE7 /* CNUSignal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CNUSignal.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -27,6 +27,7 @@
 		CB2D6ACD214FBCDE00354CE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB2D6AD0214FBCDE00354CE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB2D6AD2214FBCDE00354CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB30EDCA21512BEE0037F5EE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +71,7 @@
 		CB2D6AC5214FBCDD00354CE7 /* CNUSignal */ = {
 			isa = PBXGroup;
 			children = (
-				2D155764214FD4E8005DBEDC /* GoogleService-Info.plist */,
+				CB30EDCA21512BEE0037F5EE /* GoogleService-Info.plist */,
 				CB2D6AC6214FBCDD00354CE7 /* AppDelegate.swift */,
 				CB2D6AC8214FBCDD00354CE7 /* ViewController.swift */,
 				CB2D6ACA214FBCDD00354CE7 /* Main.storyboard */,
@@ -151,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB2D6AD1214FBCDE00354CE7 /* LaunchScreen.storyboard in Resources */,
+				CB30EDCB21512BEE0037F5EE /* GoogleService-Info.plist in Resources */,
 				CB2D6ACE214FBCDE00354CE7 /* Assets.xcassets in Resources */,
 				CB2D6ACC214FBCDD00354CE7 /* Main.storyboard in Resources */,
 			);
@@ -164,15 +166,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-CNUSignal-checkManifestLockResult.txt",
 			);
@@ -186,17 +184,15 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CNUSignal/Pods-CNUSignal-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -365,7 +361,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-01402343.CNUSignal";
+				PRODUCT_BUNDLE_IDENTIFIER = cnu.junior.CNUSignal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -384,7 +380,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-01402343.CNUSignal";
+				PRODUCT_BUNDLE_IDENTIFIER = cnu.junior.CNUSignal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

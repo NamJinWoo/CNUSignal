@@ -6,5 +6,6 @@ target 'CNUSignal' do
   use_frameworks!
 
   # Pods for CNUSignal
-pod 'Firebase/Core'
+pod 'Firebase'
+pod 'Firebase/Auth'
 end
