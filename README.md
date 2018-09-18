@@ -4,3 +4,5 @@
 iOS Team - Jinwoo Nam , Miji Kim
 
 Android Team - Daewon Kwon
+
+Design - Jimin Park
