@@ -37,7 +37,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="비밀번호 :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DgA-Ov-zGB">
                                 <rect key="frame" x="29" y="284" width="68" height="25"/>
@@ -211,6 +211,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="6fH-S4-f8l"/>
         <segue reference="HnW-Ju-oWJ"/>
     </inferredMetricsTieBreakers>
 </document>

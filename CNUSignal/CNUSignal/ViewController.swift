@@ -29,10 +29,16 @@ class ViewController: UIViewController {
         Auth.auth().signIn(withEmail: idTextField.text!, password: passwordTextField.text!) { (user, error) in
             if user != nil{
                 print("login success")
+               
             }
                 
             else{
                 print("login fail")
+                let alert = UIAlertController(title: "Login Fail alert", message: "Sign-in Failed", preferredStyle: .alert)
+                alert.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: "Default action"), style: .default, handler: { _ in
+                    NSLog("The \"OK\" alert occured.")
+                }))
+                self.present(alert, animated: true, completion: nil)
             }
         }
     }
