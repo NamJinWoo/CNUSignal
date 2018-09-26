@@ -7,7 +7,7 @@
 <h3>Android Team</h3>
 <p>Daewon Kwon ( http://github.com/KwonDae ) </p>
 
-<h3>Design</h3>
+<h3>Design Team</h3>
 <p>Jimin Park ( http://github.com/wlals054 )</p>
 
 <hr/>
