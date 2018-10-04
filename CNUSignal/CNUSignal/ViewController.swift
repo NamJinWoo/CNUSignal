@@ -56,5 +56,24 @@ class ViewController: UIViewController {
     @IBAction func signupBtn(_ sender: Any) {
         //회원가입 버튼을 눌렀을때. 뷰컨트롤러 바뀌어야함
     }
-
+    @IBAction func signUpDone(_ sender: Any) {
+//        Auth.auth().createUser(withEmail: emailTextField.text!, password: pwTextField.text!
+//
+//        ) { (user, error) in
+//
+//            if user !=  nil{
+//
+//                print("register success")
+//
+//            }
+//
+//            else{
+//
+//                print("register failed")
+//
+//            }
+//            
+//        }
+    }
+    
 }

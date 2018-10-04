@@ -14,6 +14,7 @@
 		CB2D6ACE214FBCDE00354CE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB2D6ACD214FBCDE00354CE7 /* Assets.xcassets */; };
 		CB2D6AD1214FBCDE00354CE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB2D6ACF214FBCDE00354CE7 /* LaunchScreen.storyboard */; };
 		CB30EDCB21512BEE0037F5EE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB30EDCA21512BEE0037F5EE /* GoogleService-Info.plist */; };
+		CB8092E721566E6400B2347D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8092E621566E6400B2347D /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		CB2D6AD0214FBCDE00354CE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB2D6AD2214FBCDE00354CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB30EDCA21512BEE0037F5EE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CB8092E621566E6400B2347D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				CB2D6ACD214FBCDE00354CE7 /* Assets.xcassets */,
 				CB2D6ACF214FBCDE00354CE7 /* LaunchScreen.storyboard */,
 				CB2D6AD2214FBCDE00354CE7 /* Info.plist */,
+				CB8092E621566E6400B2347D /* SignUpViewController.swift */,
 			);
 			path = CNUSignal;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB8092E721566E6400B2347D /* SignUpViewController.swift in Sources */,
 				CB2D6AC9214FBCDD00354CE7 /* ViewController.swift in Sources */,
 				CB2D6AC7214FBCDD00354CE7 /* AppDelegate.swift in Sources */,
 			);
