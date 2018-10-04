@@ -56,7 +56,7 @@
                                 </state>
                                 <connections>
                                     <action selector="loginBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Ma-Ny-mwo"/>
-                                    <segue destination="Xfo-du-JyE" kind="modal" id="4VU-ua-mmN"/>
+                                    <segue destination="537-bh-o3e" kind="modal" id="9FN-4Z-hIS"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L4T-5u-R7N">
@@ -166,7 +166,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="25j-jU-dYD" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="a0d-mQ-PmT" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="918" y="539"/>
+            <point key="canvasLocation" x="494" y="546"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Er0-Da-hy5">
@@ -189,7 +189,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="번호 넣기"/>
                                 <connections>
-                                    <segue destination="NEj-Re-TDG" kind="modal" id="Pgc-iE-8mY"/>
+                                    <segue destination="NEj-Re-TDG" kind="show" id="gcd-Pj-a0K"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SqZ-ia-11W">
@@ -202,10 +202,27 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="q91-3t-Ai0"/>
                     </view>
+                    <navigationItem key="navigationItem" id="7ry-Xf-Zcp"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cxp-eG-jYA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="918" y="-196"/>
+            <point key="canvasLocation" x="1276" y="-206"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="9DI-m3-YVL">
+            <objects>
+                <navigationController id="537-bh-o3e" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4C2-2r-hRD">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Xfo-du-JyE" kind="relationship" relationship="rootViewController" id="K7e-P2-WXe"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rn7-nf-zSn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="494" y="-206"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="yLf-26-RCW">
@@ -256,7 +273,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gd2-63-gcO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1839" y="-818"/>
+            <point key="canvasLocation" x="2324" y="-638"/>
         </scene>
     </scenes>
 </document>
