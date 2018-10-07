@@ -75,5 +75,6 @@ class ViewController: UIViewController {
 //            
 //        }
     }
+    //view controller를 얼마나 만들어야할지 물어보기.
     
 }
